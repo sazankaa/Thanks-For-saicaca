@@ -58,10 +58,7 @@ draft: false
 | `pnpm astro --help`                 | Astro CLIのヘルプを表示                            |
 
 
-## 階層
+<!-- ## 階層
 ```
-/
--> {}
-
-/about -> {src/content/spec/about.md}
-```
+/about -> {src/content/spec/about.md + src/pages/about.astro}
+``` -->
