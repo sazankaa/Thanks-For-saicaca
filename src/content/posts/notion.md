@@ -3,7 +3,7 @@ title: このテンプレートの構造
 published: 2025-05-04
 description: 'notion about this template'
 image: ''
-tags: [notion]
+tags: [Notion]
 category: 'Notion'
 draft: false
 ---
