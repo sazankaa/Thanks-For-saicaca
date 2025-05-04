@@ -5,7 +5,7 @@ description: 'notion about this template'
 image: ''
 tags: [notion]
 category: 'Notion'
-draft: true
+draft: false
 ---
 
 ## 記事の作成
