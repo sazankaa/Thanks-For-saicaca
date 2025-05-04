@@ -14,9 +14,9 @@ Paragraphs are separated by a blank line.
 2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
 look like:
 
-- this one
-- that one
-- the other one
+- *this one*
+- **that one**
+- `the other one`
 
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
@@ -147,11 +147,11 @@ tomatoes
 Again, text is indented 4 spaces. (Put a blank line between each
 term/definition pair to spread things out more.)
 
-Here's a "line block":
+    Here's a "line block":
 
-| Line one
-| Line too
-| Line tree
+    | Line one
+    | Line too
+    | Line tree
 
 and images can be specified like so:
 
