@@ -1,8 +1,8 @@
 ---
-title: Draft Example
+title: 書き始めの部分
 published: 2022-07-01
 tags: [Markdown, Blogging, Demo]
-category: Examples
+category: StartUp
 draft: false
 ---
 
