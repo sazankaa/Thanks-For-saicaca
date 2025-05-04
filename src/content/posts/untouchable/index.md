@@ -5,7 +5,7 @@ description: "list of laguage, libarary, knowledge and software"
 image: "./IamProgrammer!.png"
 tags: [Language]
 category: "TODO"
-draft: true
+draft: false
 ---
 
 ## 資格・外国語
