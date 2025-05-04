@@ -1,3 +1,4 @@
+#これ消すな！これがデプロイのために必要！build.ymlではない
 name: Deploy to GitHub Pages
 
 on:
