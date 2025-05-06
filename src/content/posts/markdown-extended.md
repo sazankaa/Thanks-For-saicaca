@@ -1,50 +1,51 @@
 ---
-title: Note記法の説明とか
+title: MarkDown チートシート
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
-image: ''
+description: "Read more about Markdown features in Fuwari"
+image: ""
 tags: [Demo, Example, Markdown]
 category: StartUp
 draft: false
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+## GitHub r リポジトリカード
 
-::github{repo="Fabrizz/MMM-OnSpotify"}
+GitHub リポジトリにリンクする動的カードの追加が可能, GitHub API を使用してデータを取得している.
 
-Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
+::github{repo="tohu-sand/tohu-sand-profile"}
+
+書きかた `::github{repo="<owner>/<repo>"}`.
 
 ```markdown
 ::github{repo="saicaca/fuwari"}
 ```
 
-## Admonitions
+## Note 記法
 
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+次の 5 つをサポート: `note` `tip` `important` `warning` `caution`
 
 :::note
-Highlights information that users should take into account, even when skimming.
+ざっと目を通すときでもユーザーが考慮すべき情報を強調表示します。
 :::
 
 :::tip
-Optional information to help a user be more successful.
+ヒントとなることをかけばええんちゃ
 :::
 
 :::important
-Crucial information necessary for users to succeed.
+重要なことを伝える
 :::
 
 :::warning
-Critical content demanding immediate user attention due to potential risks.
+注意を呼びかける
 :::
 
 :::caution
-Negative potential consequences of an action.
+危険を知らせる
 :::
 
-### Basic Syntax
+### 構文
 
 ```markdown
 :::note
@@ -56,9 +57,9 @@ Optional information to help a user be more successful.
 :::
 ```
 
-### Custom Titles
+### タイトルの変更
 
-The title of the admonition can be customized.
+Note 記法のタイトルは変更できます。
 
 :::note[MY CUSTOM TITLE]
 This is a note with a custom title.
@@ -70,10 +71,9 @@ This is a note with a custom title.
 :::
 ```
 
-### GitHub Syntax
+### GitHub 構文
 
-> [!TIP]
-> [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
+> [!TIP] > [GitHub 構文](https://github.com/orgs/community/discussions/16925) もサポートしてます
 
 ```
 > [!NOTE]
