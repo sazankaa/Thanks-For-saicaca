@@ -1,5 +1,5 @@
 ---
-title: フロントマターの説明とか
+title: フロントマターの説明等
 published: 2024-04-01
 description: "How to use this blog template."
 image: "./cover.jpeg"
@@ -8,11 +8,12 @@ category: StartUp
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
+> トップ画像のリンク: [Source](<https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg>)
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+このブログのテンプレートは [Astro](https://astro.build/)で作られています。
+StartUp カテゴリに知りたい内容がない場合は[Astro Docs](https://docs.astro.build/)を参照されたし。
 
-## Front-matter of Posts
+## 投稿のフロントマター
 
 ```yaml
 ---
@@ -26,26 +27,25 @@ draft: false
 ---
 ```
 
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
+| Attribute     | Description          |
+| ------------- | -------------------- |
+| `title`       | 投稿のタイトル       |
+| `published`   | 投稿日               |
+| `description` | 概要                 |
+| `image`       | 見出し画像へのリンク |
+| `tags`        | 投稿のタグ           |
+| `category`    | 投稿のカテゴリ       |
+| `draft`       | 公開非公開の設定     |
 
-## Where to Place the Post Files
+## 投稿記事の置き場
 
+投稿は `src/content/posts/` ディレクトリに置かなきゃいけない. 画像等を含めたい場合は
+サブディレクトリを作成する。
 
-
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
-
-```
+```sh
 src/content/posts/
-├── post-1.md
+├── post-1.md #https://<User>.github.io/<repos>/posts/post-1
 └── post-2/
     ├── cover.png
-    └── index.md
+    └── index.md # ##https://<User>.github.io/<repos>/posts/post-2
 ```
