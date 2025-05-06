@@ -15,9 +15,9 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // 常に表示するか否か
 	},
 	banner: {
-		enable: true,//trueならトップバナーの下に画像を表示可
-		src: "assets/images/aobuta.JPG", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		// src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		enable: true, //trueならトップバナーの下に画像を表示可
+		// src: "assets/images/aobuta.JPG", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/image.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // trueで画像の注釈を追加可能
@@ -56,7 +56,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/May.jpg",
 	// avatar: "assets/images/kaho.jpg",
 	// avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Minatogawa",//プロフィール部分のあれこれ
+	name: "Minatogawa", //プロフィール部分のあれこれ
 	bio: "ペットボトルの芯で筋肉痛。",
 	links: [
 		{
