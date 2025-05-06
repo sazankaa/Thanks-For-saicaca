@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true, //trueならトップバナーの下に画像を表示可
-		src: "assets/images/aobuta.JPG", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/header.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // trueで画像の注釈を追加可能
