@@ -7,7 +7,8 @@ category: StartUp
 draft: false
 ---
 
-Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
+Youtube やその他のプラットフォームから"埋め込み"を選択し、
+得られたコードを markdown 記事に貼り付ける。
 
 ```yaml
 ---

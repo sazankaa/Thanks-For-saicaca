@@ -26,15 +26,15 @@ I already learned some languages, `Java, C, Python, JavaScript, Ruby`, (`TeX, HT
 
 ## Goodness
 
-## <iframe width="560" height="315" src="https://www.youtube.com/embed/UQeBnWAGfSk?si=_GgVlsuvLNVK-8kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## <iframe width="100%" height="468" src="https://www.youtube.com/embed/UQeBnWAGfSk?si=_GgVlsuvLNVK-8kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dBnAnLb6D5g?si=QYIucSxuP4gHRXcq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/dBnAnLb6D5g?si=QYIucSxuP4gHRXcq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NPY5MsSzwvA?si=H-9zf_3rC0NOyYvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/NPY5MsSzwvA?si=H-9zf_3rC0NOyYvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 神
 
