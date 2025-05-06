@@ -1,24 +1,20 @@
 ---
 title: このテンプレートの構造
 published: 2025-05-04
-description: 'notion about this template'
-image: ''
+description: "notion about this template"
+image: ""
 tags: [Notion]
-category: 'Notion'
+category: "Notion"
 draft: false
 ---
 
 ## 記事の作成
 
-`pnpm new-post <filename>`を入力する
+新規投稿の作成はプロンプトで`pnpm new-post <filename>`と入力
 
 ```bash
 pnpm new-post notion.md
 
-pnpm new-post "<directry>/index.md"
 //写真などを含みたいとき。
+pnpm new-post "<subDirectry>/index.md"
 ```
-
-posts直下に置くとURLは`/posts/fileName`
-
-ディレクトリを含むと`posts/<directry>/`でアクセス。
