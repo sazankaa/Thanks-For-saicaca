@@ -20,11 +20,18 @@ lang: ""
 
 しかし,admonition (Note 記法)のスタイルを維持したままの pdf 化が Markdown PDF ではできなかった.
 
+```md
 !!! tip tip
 
-    こっちはMkDocsとかのやつ？
-    > [!note]
-    こっちは GFM
+    こっちは MkDocs とかのやつ？
+```
+
+```md
+> [!note]
+> こっちは GFM
+```
+
+![alt text](image.png)
 
 ## 結論 `Markdown Extended`を使う
 
@@ -43,3 +50,7 @@ admoniton を維持したまま pdf にしたい場合,html に変換する時�
 npm で puppeteer やら,markdown-it をインストールしてコマンドラインから pdf にするという手順もあったがなるはやで vscode 上で終わらせたかったからこの手順を選んだ.
 
 (追記) 数式も$囲み, コードブロック数式どちらも行けた.
+
+```
+
+```
