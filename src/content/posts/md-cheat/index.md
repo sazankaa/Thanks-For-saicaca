@@ -31,7 +31,7 @@ lang: ""
 > こっちは GFM
 ```
 
-![alt text](image.png)
+![alt text](./image.png)
 
 ## 結論 `Markdown Extended`を使う
 
